@@ -1,0 +1,7 @@
+{
+  "prettier.documentSelectors": [
+    "*.ts",
+    "*.js",
+    "*.json"
+  ]
+}
