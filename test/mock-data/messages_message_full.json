@@ -1,0 +1,81 @@
+{
+  "status": "success",
+  "time": 0.01,
+  "flags": {},
+  "data": {
+    "id": 961,
+    "token": "erU4xQPhUrLb",
+    "status": {
+      "status": "Sent",
+      "last_delivery_attempt": 1633467933.337266,
+      "held": false,
+      "hold_expiry": null
+    },
+    "details": {
+      "rcpt_to": "abc@example.com",
+      "mail_from": "def@example.com",
+      "subject": "Some mail",
+      "message_id": "afb5a6fe-b978-46d1-833d-6b8798ea58e7@rp.mail.example.com",
+      "timestamp": 1633467930.482752,
+      "direction": "outgoing",
+      "size": "1508",
+      "bounce": 0,
+      "bounce_for_id": 0,
+      "tag": null,
+      "received_with_ssl": 1
+    },
+    "inspection": {
+      "inspected": false,
+      "spam": false,
+      "spam_score": 0.0,
+      "threat": false,
+      "threat_details": null
+    },
+    "plain_body": "Fake message",
+    "html_body": "<b>Fake message</b>",
+    "attachments": [],
+    "headers": {
+      "received": [
+        "from api (postal_nginx.traefik_proxy_network [192.168.112.53]) by Postal with HTTP; Tue, 05 Oct 2021 21:05:30 +0000"
+      ],
+      "date": [
+        "Tue, 05 Oct 2021 21:05:30 +0000"
+      ],
+      "from": [
+        "Def <def@example.com>"
+      ],
+      "to": [
+        "abc@example.com"
+      ],
+      "cc": [
+        "xxx@example.com"
+      ],
+      "message-id": [
+        "<afb5a6fe-b978-46d1-833d-6b8798ea58e7@rp.mail.example.com>"
+      ],
+      "subject": [
+        "Some mail"
+      ],
+      "mime-version": [
+        "1.0"
+      ],
+      "content-type": [
+        "multipart/alternative; boundary=\"--==_mimepart_615cbe1a69b74_482af3534567f0419a5\"; charset=UTF-8"
+      ],
+      "content-transfer-encoding": [
+        "7bit"
+      ],
+      "dkim-signature": [
+        "[fake sig]"
+      ],
+      "x-postal-msgid": [
+        "erU4xQPhUrLb"
+      ]
+    },
+    "raw_message": "[fake raw message]",
+    "activity_entries": {
+      "loads": [],
+      "clicks": []
+    }
+  }
+}

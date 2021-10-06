@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inspect inspects with all expansions 1`] = `
+Object {
+  "activity_entries": Object {
+    "clicks": Array [],
+    "loads": Array [],
+  },
+  "attachments": Array [],
+  "details": Object {
+    "bounce": 0,
+    "bounce_for_id": 0,
+    "direction": "outgoing",
+    "mail_from": "def@example.com",
+    "message_id": "afb5a6fe-b978-46d1-833d-6b8798ea58e7@rp.mail.example.com",
+    "rcpt_to": "abc@example.com",
+    "received_with_ssl": 1,
+    "size": "1508",
+    "subject": "Some mail",
+    "tag": null,
+    "timestamp": 1633467930.482752,
+  },
+  "headers": Object {
+    "cc": Array [
+      "xxx@example.com",
+    ],
+    "content-transfer-encoding": Array [
+      "7bit",
+    ],
+    "content-type": Array [
+      "multipart/alternative; boundary=\\"--==_mimepart_615cbe1a69b74_482af3534567f0419a5\\"; charset=UTF-8",
+    ],
+    "date": Array [
+      "Tue, 05 Oct 2021 21:05:30 +0000",
+    ],
+    "dkim-signature": Array [
+      "[fake sig]",
+    ],
+    "from": Array [
+      "Def <def@example.com>",
+    ],
+    "message-id": Array [
+      "<afb5a6fe-b978-46d1-833d-6b8798ea58e7@rp.mail.example.com>",
+    ],
+    "mime-version": Array [
+      "1.0",
+    ],
+    "received": Array [
+      "from api (postal_nginx.traefik_proxy_network [192.168.112.53]) by Postal with HTTP; Tue, 05 Oct 2021 21:05:30 +0000",
+    ],
+    "subject": Array [
+      "Some mail",
+    ],
+    "to": Array [
+      "abc@example.com",
+    ],
+    "x-postal-msgid": Array [
+      "erU4xQPhUrLb",
+    ],
+  },
+  "html_body": "<b>Fake message</b>",
+  "id": 961,
+  "inspection": Object {
+    "inspected": false,
+    "spam": false,
+    "spam_score": 0,
+    "threat": false,
+    "threat_details": null,
+  },
+  "plain_body": "Fake message",
+  "raw_message": "[fake raw message]",
+  "status": Object {
+    "held": false,
+    "hold_expiry": null,
+    "last_delivery_attempt": 1633467933.337266,
+    "status": "Sent",
+  },
+  "token": "erU4xQPhUrLb",
+}
+`;
