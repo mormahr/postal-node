@@ -75,8 +75,8 @@ describe('send', () => {
       from: 'def@example.com',
       plain_body: 'Test',
       attachments: [
-        makeAttachment("test.txt", "plain/text", Buffer.from("Test", "utf-8"))
-      ]
+        makeAttachment('test.txt', 'plain/text', Buffer.from('Test', 'utf-8')),
+      ],
     };
 
     const result = await client.send(message);
@@ -97,7 +97,7 @@ describe('send', () => {
             {
               name: 'test.txt',
               content_type: 'plain/text',
-              data: Buffer.from('Test', 'utf-8').toString("base64"),
+              data: Buffer.from('Test', 'utf-8').toString('base64'),
             },
           ],
         },
