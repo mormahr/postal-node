@@ -31,16 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "postal-node",
+  "name": "@mormahr/postal",
   "author": "Moritz Mahringer",
-  "module": "dist/postal-node.esm.js",
+  "module": "dist/postal.esm.js",
   "size-limit": [
     {
-      "path": "dist/postal-node.cjs.production.min.js",
+      "path": "dist/postal.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/postal-node.esm.js",
+      "path": "dist/postal.esm.js",
       "limit": "10 KB"
     }
   ],
