@@ -45,7 +45,7 @@
     }
   ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "6.0.4",
+    "@size-limit/preset-small-lib": "9.0.0",
     "@types/node-fetch": "2.6.7",
     "fetch-mock": "9.11.0",
     "fetch-mock-jest": "1.5.1",
