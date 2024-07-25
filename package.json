@@ -47,7 +47,7 @@
   "devDependencies": {
     "@size-limit/preset-small-lib": "6.0.4",
     "@types/node-fetch": "2.6.10",
-    "fetch-mock": "9.11.0",
+    "fetch-mock": "10.1.1",
     "fetch-mock-jest": "1.5.1",
     "husky": "7.0.4",
     "size-limit": "6.0.4",
